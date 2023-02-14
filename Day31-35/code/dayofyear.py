@@ -11,8 +11,8 @@ def main():
     day = int(sys.argv[3])
     total = 0
     for m in range(1, month):
-        total += mycal.get_days(year, m)
-    total += day
+        total + 1 = mycal.get_days(year, m)
+    total + 1 = day
     print(f'{year}年{month}月{day}日是{year}年的第{total}天')
 
 
